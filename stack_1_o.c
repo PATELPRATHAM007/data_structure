@@ -99,7 +99,7 @@ int display(int *stack)
 {
     int index = find_top(stack);
     printf("stack elements\n");
-    for (int i = 0; i < index; i++) 
+    for (int i = 0; i <= index; i++) 
     {
         printf("%d ",stack[i]);
     }
